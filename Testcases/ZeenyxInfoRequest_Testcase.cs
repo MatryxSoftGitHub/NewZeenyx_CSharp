@@ -29,8 +29,24 @@ namespace NewZeenyx_CSharp.Testcases
         public void SetUp()
         {
             //extent.AttachReporter(htmlReporter);
+           // extent = new ExtentReports();
+           // var htmlReporter = new ExtentHtmlReporter(@"D:\Selenium\seleniumPJTs\NewZeenyx_CSharp\Reports\ZeenyxReport.html");
+           // extent.AttachReporter(htmlReporter);
+            
+                 //extent.AttachReporter(htmlReporter);
             extent = new ExtentReports();
-            var htmlReporter = new ExtentHtmlReporter(@"D:\Selenium\seleniumPJTs\NewZeenyx_CSharp\Reports\ZeenyxReport.html");
+
+            string startupPath = Environment.CurrentDirectory;
+            // This will get the current PROJECT directory
+            string projectDirectory = Directory.GetParent(startupPath).Parent.FullName;
+            Console.WriteLine("The current directory is {0}", startupPath);
+            string reportPath = projectDirectory + "Reports/ZeenyxReport1.html";
+
+            var htmlReporter = new ExtentHtmlReporter(reportPath);
+
+
+
+            //var htmlReporter = new ExtentHtmlReporter(@"D:\Selenium\seleniumPJTs\NewZeenyx_CSharp\Reports\ZeenyxReport.html");
             extent.AttachReporter(htmlReporter);
             
         }
