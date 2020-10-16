@@ -160,12 +160,12 @@ namespace NewZeenyx_CSharp.Testcases
 
         
 
-            [TearDown]
-            public void CleansUp()
-            {
-                extent.Flush();
+//             [TearDown]
+//             public void CleansUp()
+//             {
+//                 extent.Flush();
 
-            }
+//             }
 
 
 
