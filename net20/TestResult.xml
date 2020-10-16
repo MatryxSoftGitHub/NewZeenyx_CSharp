@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2020-06-12 07:07:58Z" end-time="2020-06-12 07:08:39Z" duration="40.506980">
+  <command-line><![CDATA[nunit3-console.exe  D:\Selenium\seleniumPJTs\NewZeenyx_CSharp\bin\Debug\NewZeenyx_CSharp.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="NewZeenyx_CSharp.dll" fullname="D:\Selenium\seleniumPJTs\NewZeenyx_CSharp\bin\Debug\NewZeenyx_CSharp.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:39Z" duration="39.132881" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.18362.0" platform="Win32NT" cwd="D:\Selenium\Softwares\NUnit.Console-3.11.1\bin\net20" machine-name="MSDESBACKUP" user="msadmin" user-domain="Matryxsoft" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\Selenium\Softwares\NUnit.Console-3.11.1\bin\net20" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="6" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12016" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1005" name="NewZeenyx_CSharp" fullname="NewZeenyx_CSharp" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:39Z" duration="39.108883" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="0-1007" name="Base" fullname="NewZeenyx_CSharp.Base" runstate="Runnable" testcasecount="0" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:00Z" duration="0.012279" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1003" name="Zeenyx_BaseState" fullname="NewZeenyx_CSharp.Base.Zeenyx_BaseState" classname="NewZeenyx_CSharp.Base.Zeenyx_BaseState" runstate="Runnable" testcasecount="0" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:00Z" duration="0.001148" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      </test-suite>
+      <test-suite type="TestSuite" id="0-1006" name="Testcases" fullname="NewZeenyx_CSharp.Testcases" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:39Z" duration="39.108281" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1000" name="ZeenyxInfoRequest_Testcase" fullname="NewZeenyx_CSharp.Testcases.ZeenyxInfoRequest_Testcase" classname="NewZeenyx_CSharp.Testcases.ZeenyxInfoRequest_Testcase" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:39Z" duration="39.092321" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="0-1001" name="EnvVariables" fullname="NewZeenyx_CSharp.Testcases.ZeenyxInfoRequest_Testcase.EnvVariables" methodname="EnvVariables" classname="NewZeenyx_CSharp.Testcases.ZeenyxInfoRequest_Testcase" runstate="Runnable" seed="387539320" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:00Z" duration="0.277063" asserts="0" />
+          <test-case id="0-1002" name="Zeenyx" fullname="NewZeenyx_CSharp.Testcases.ZeenyxInfoRequest_Testcase.Zeenyx" methodname="Zeenyx" classname="NewZeenyx_CSharp.Testcases.ZeenyxInfoRequest_Testcase" runstate="Runnable" seed="702072191" result="Passed" start-time="2020-06-12 07:08:00Z" end-time="2020-06-12 07:08:39Z" duration="38.544165" asserts="0">
+            <output><![CDATA[Zeenyx Website is displayed!
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
