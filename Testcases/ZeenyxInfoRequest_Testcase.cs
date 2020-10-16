@@ -9,6 +9,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 using NewZeenyx_CSharp.Utilities;
 using NUnit.Framework;
+using System.IO;
 
 namespace NewZeenyx_CSharp.Testcases
 {
