@@ -41,7 +41,7 @@ namespace NewZeenyx_CSharp.Testcases
             // This will get the current PROJECT directory
             string projectDirectory = Directory.GetParent(startupPath).Parent.FullName;
             Console.WriteLine("The current directory is {0}", startupPath);
-            string reportPath = projectDirectory + "Reports/ZeenyxReport.html";
+            string reportPath = projectDirectory + "Reports\ZeenyxReport.html";
 
             var htmlReporter = new ExtentHtmlReporter(reportPath);
 
