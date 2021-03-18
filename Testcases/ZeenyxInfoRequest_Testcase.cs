@@ -30,20 +30,20 @@ namespace NewZeenyx_CSharp.Testcases
         public void SetUp()
         {
             
-           //extent = new ExtentReports();
+           extent = new ExtentReports();
 
-           // string startupPath = Environment.CurrentDirectory;
-           // // This will get the current PROJECT directory
-           // string projectDirectory = Directory.GetParent(startupPath).Parent.FullName;
-           // Console.WriteLine("The current directory is 12345", projectDirectory);
-           // string reportPath = startupPath  + "/ZeenyxReport.html";
+            string startupPath = Environment.CurrentDirectory;
+            // This will get the current PROJECT directory
+            string projectDirectory = Directory.GetParent(startupPath).Parent.FullName;
+            Console.WriteLine("The current directory is 12345", projectDirectory);
+           string reportPath = startupPath  + "/ZeenyxReport.html";
 
-           // var htmlReporter = new ExtentHtmlReporter(reportPath);
+           var htmlReporter = new ExtentHtmlReporter(reportPath);
 
 
 
             
-           // extent.AttachReporter(htmlReporter);
+           extent.AttachReporter(htmlReporter);
             
         }
 
